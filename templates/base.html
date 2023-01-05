@@ -14,12 +14,11 @@
 </head>
 
 <body>
-    <div class="alert alert-primary" role="alert">
-        {{ object.title }}
-    </div>
-    <div class="alert alert-primary" role="alert">
-        {{ object.memo }}
-    </div>
+    {% block header %}
+    {% endblock header %}
+
+    {% block content %}
+    {% endblock content %}
 
     <!-- Optional JavaScript; choose one of the two! -->
 
